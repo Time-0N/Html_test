@@ -4,6 +4,9 @@ let score = 0;
 let username = '';
 let isAdmin = false;
 
+//Bonus
+let input = 5;
+
 for (i = 1; i<=age; i++) {
     console.log(i)
 }
@@ -39,3 +42,18 @@ if (isAdmin) {
     console.log("isAdmin is false");
 }
 
+//Bonus
+let n = input;
+
+
+for (let i = 1; i <= input; i++) {
+    let spaces = ' '.repeat(input - i);
+    let stars = '*'.repeat(2 * i - 1);
+    console.log(spaces + stars);
+}
+
+for (let i = 1; i <= input; i++) {
+    let spaces = ' '.repeat(input - 1);
+    let stars = '*';
+    console.log(spaces + stars);
+}
