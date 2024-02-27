@@ -5,7 +5,7 @@ let username = '';
 let isAdmin = false;
 
 //Bonus
-let input = 5;
+let input = 6;
 
 for (i = 1; i<=age; i++) {
     console.log(i)
